@@ -17,7 +17,6 @@ public class SeleniumCommands {
 	 * comment
 	 */
 		
-		
 	// Invoike / Innitialization / open Browser
 	
 	//Open Chrome browser
@@ -32,7 +31,5 @@ public class SeleniumCommands {
 	System.setProperty("webdriver.ie.driver", "C:\\Program Files\\Selenium\\drivers\\IEDriverServer_3.10.exe");
 	WebDriver driver2 = new InternetExplorerDriver();
 	
-	
 	}
-
 }
