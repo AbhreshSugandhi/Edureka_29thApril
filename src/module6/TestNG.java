@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestNG {
@@ -26,13 +27,14 @@ public class TestNG {
 		driver.get("http://newtours.demoaut.com/");
 	}
 
+	@Parameters("UName")
 	@Test
-	public void Login() throws InterruptedException {
+	public void Login(String UName, String Pass) throws InterruptedException {
 		// Enter UserID
-		driver.findElement(By.name("abh")).sendKeys("tutorial");
+		driver.findElement(By.name("username")).sendKeys(UName);
 
 		// Enter Password
-		driver.findElement(By.name("password")).sendKeys("tutorial");
+		driver.findElement(By.name("password")).sendKeys(Pass);
 
 		// Click on Sign in button
 		driver.findElement(By.name("login")).click();
