@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Grid test" parallel="tests">
+	<test name="Machine 1">
+		<parameter name="System" value="pc1"></parameter>
+		<classes>
+			<class name="module7.NewTours" />
+		</classes>
+	</test>
+	<test name="Machine 2">
+		<parameter name="System" value="pc2"></parameter>
+		<classes>
+			<class name="module7.NewTours" />
+		</classes>
+	</test>
+</suite>
