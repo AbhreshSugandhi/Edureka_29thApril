@@ -2,54 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ParallelTesting" duration-ms="30638" started-at="2019-05-14T03:15:09Z" finished-at="2019-05-14T03:15:39Z">
+  <suite name="Grid test" duration-ms="35363" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:12Z">
     <groups>
     </groups>
-    <test name="Chrome1" duration-ms="19932" started-at="2019-05-14T03:15:09Z" finished-at="2019-05-14T03:15:29Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@34c4973]" name="openBrowser" is-config="true" duration-ms="7800" started-at="2019-05-14T03:15:09Z" finished-at="2019-05-14T03:15:17Z">
+    <test name="Machine 2" duration-ms="33920" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:10Z">
+      <class name="module7.NewTours">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.NewTours@37d31475]" name="openBrowser" is-config="true" duration-ms="14202" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:31:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[pc2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:module6.Scenario3@34c4973]" name="login_TestCase" duration-ms="10973" started-at="2019-05-14T03:15:17Z" finished-at="2019-05-14T03:15:28Z">
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:module7.NewTours@37d31475]" name="TestLogin" duration-ms="19668" started-at="2019-05-15T02:31:50Z" finished-at="2019-05-15T02:32:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module6.Scenario3@34c4973]" name="closeBrowser" is-config="true" duration-ms="1079" started-at="2019-05-14T03:15:28Z" finished-at="2019-05-14T03:15:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- Chrome1 -->
-    <test name="Chrome2" duration-ms="30638" started-at="2019-05-14T03:15:09Z" finished-at="2019-05-14T03:15:39Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@3e57cd70]" name="openBrowser" is-config="true" duration-ms="23417" started-at="2019-05-14T03:15:09Z" finished-at="2019-05-14T03:15:32Z">
+        </test-method> <!-- TestLogin -->
+      </class> <!-- module7.NewTours -->
+    </test> <!-- Machine 2 -->
+    <test name="Machine 1" duration-ms="35363" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:12Z">
+      <class name="module7.NewTours">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.NewTours@ea1a8d5]" name="openBrowser" is-config="true" duration-ms="14189" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:31:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[pc1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:module6.Scenario3@3e57cd70]" name="login_TestCase" duration-ms="3384" started-at="2019-05-14T03:15:32Z" finished-at="2019-05-14T03:15:36Z">
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:module7.NewTours@ea1a8d5]" name="TestLogin" duration-ms="21118" started-at="2019-05-15T02:31:50Z" finished-at="2019-05-15T02:32:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module6.Scenario3@3e57cd70]" name="closeBrowser" is-config="true" duration-ms="3825" started-at="2019-05-14T03:15:36Z" finished-at="2019-05-14T03:15:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- Chrome2 -->
-  </suite> <!-- ParallelTesting -->
+        </test-method> <!-- TestLogin -->
+      </class> <!-- module7.NewTours -->
+    </test> <!-- Machine 1 -->
+  </suite> <!-- Grid test -->
 </testng-results>
