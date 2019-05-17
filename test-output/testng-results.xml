@@ -1,47 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Grid test" duration-ms="35363" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:12Z">
+  <suite name="Default suite" duration-ms="78305" started-at="2019-05-17T03:35:44Z" finished-at="2019-05-17T03:37:03Z">
     <groups>
     </groups>
-    <test name="Machine 2" duration-ms="33920" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:10Z">
-      <class name="module7.NewTours">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.NewTours@37d31475]" name="openBrowser" is-config="true" duration-ms="14202" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:31:50Z">
+    <test name="Default test" duration-ms="78305" started-at="2019-05-17T03:35:44Z" finished-at="2019-05-17T03:37:03Z">
+      <class name="module9.TestCase.DDT">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="Setup" is-config="true" duration-ms="22660" started-at="2019-05-17T03:35:44Z" finished-at="2019-05-17T03:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="6204" started-at="2019-05-17T03:36:10Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pc2]]>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="TestLogin()[pri:0, instance:module7.NewTours@37d31475]" name="TestLogin" duration-ms="19668" started-at="2019-05-15T02:31:50Z" finished-at="2019-05-15T02:32:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-      </class> <!-- module7.NewTours -->
-    </test> <!-- Machine 2 -->
-    <test name="Machine 1" duration-ms="35363" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:32:12Z">
-      <class name="module7.NewTours">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.NewTours@ea1a8d5]" name="openBrowser" is-config="true" duration-ms="14189" started-at="2019-05-15T02:31:36Z" finished-at="2019-05-15T02:31:50Z">
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5897" started-at="2019-05-17T03:36:16Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pc1]]>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="TestLogin()[pri:0, instance:module7.NewTours@ea1a8d5]" name="TestLogin" duration-ms="21118" started-at="2019-05-15T02:31:50Z" finished-at="2019-05-15T02:32:12Z">
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5687" started-at="2019-05-17T03:36:22Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestLogin -->
-      </class> <!-- module7.NewTours -->
-    </test> <!-- Machine 1 -->
-  </suite> <!-- Grid test -->
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5524" started-at="2019-05-17T03:36:28Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5566" started-at="2019-05-17T03:36:34Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5729" started-at="2019-05-17T03:36:39Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5542" started-at="2019-05-17T03:36:45Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5575" started-at="2019-05-17T03:36:50Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:36:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="FormFill" duration-ms="5508" started-at="2019-05-17T03:36:56Z" data-provider="testDataFeeder" finished-at="2019-05-17T03:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:module9.TestCase.DDT@2173f6d9]" name="QuitBrowser" is-config="true" duration-ms="1101" started-at="2019-05-17T03:37:01Z" finished-at="2019-05-17T03:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- module9.TestCase.DDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
