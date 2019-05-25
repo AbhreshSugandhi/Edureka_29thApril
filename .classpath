@@ -50,5 +50,6 @@
 	<classpathentry kind="lib" path="C:/Program Files/Selenium/Jars/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Selenium/Jars/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Selenium/Jars/poi-3.17/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Selenium/Jars/Sikuli/sikulix.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
